@@ -25,7 +25,7 @@ const DIAS = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sáb
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 const toMin = (hhmm) => { const [h, m] = hhmm.split(":").map(Number); return h * 60 + m; };
-const fmt = (hhmm) => hhmm.replace(":", "h").replace("h00", "h");
+const fmt = (hhmm) => hhmm.replace(/^0/, "").replace(":", "h").replace("h00", "h");
 
 /* ---------- Dados de contacto ---------- */
 $$("[data-phone]").forEach((a) => (a.href = `tel:+351${CONFIG.telefone}`));
@@ -82,6 +82,13 @@ toggle.addEventListener("click", () => {
   const open = toggle.getAttribute("aria-expanded") === "true";
   toggle.setAttribute("aria-expanded", String(!open));
   links.classList.toggle("is-open", !open);
+});
+addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && links.classList.contains("is-open")) {
+    toggle.setAttribute("aria-expanded", "false");
+    links.classList.remove("is-open");
+    toggle.focus();
+  }
 });
 links.addEventListener("click", (e) => {
   if (e.target.closest("a")) {

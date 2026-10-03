@@ -14,3 +14,9 @@ python -m http.server 5173
 ## Editar morada, telefone e horário
 
 Tudo está no bloco `CONFIG` no início de `script.js`.
+
+## Imagens e logo
+
+- `img/` — fotos reais (Instagram) e logo.
+- `img/logo-*.svg` — logo SA redesenhado em vetor (versões sálvia e clara); `img/favicon.svg` é o ícone do separador.
+- Padaria, Pizzaria, Gelataria e o cartão de Natal ainda usam fotos de banco (Unsplash) — substituir quando houver fotos reais.
