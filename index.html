@@ -4,15 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sabor&amp;Arte — Padaria &amp; Pastelaria em Guimarães</title>
-  <meta name="description" content="Sabor&Arte, Guimarães: pão quente, pastelaria, pizzaria e gelataria de fabrico próprio. Encomende bolos de aniversário e doces para todas as ocasiões.">
-  <meta property="og:title" content="Sabor&Arte — Fabrico Próprio">
-  <meta property="og:description" content="Pão quente, pastelaria, pizzaria e gelataria. Tudo feito por nós, todos os dias.">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1591107576521-87091dc07797?w=1200&q=80">
-  <meta name="theme-color" content="#F4ECDF">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%233A2316'/><text x='50' y='66' font-size='48' text-anchor='middle' fill='%23F4ECDF' font-family='Georgia' font-style='italic'>S&amp;</text></svg>">
+  <meta name="description" content="Sabor&Arte, Guimarães: pão quente, pastelaria, pizzaria e gelataria de fabrico próprio. Bolos personalizados para aniversários e todas as ocasiões.">
+  <meta property="og:title" content="Sabor&Arte — Padaria e Pastelaria em Guimarães">
+  <meta property="og:description" content="Pão quente, pastelaria e bolos personalizados. Tudo de fabrico próprio.">
+  <meta property="og:image" content="https://thecreative1.github.io/saborearte/img/bolo-margaridas.jpg">
+  <meta name="theme-color" content="#F6F2EC">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..800,100;1,9..144,300..800,100&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -22,7 +22,8 @@
   <!-- ============ NAV ============ -->
   <header class="nav" id="top">
     <a href="#top" class="brand" aria-label="Sabor&Arte — início">
-      Sabor<span class="amp">&amp;</span>Arte
+      <img src="img/logo-mark-sage.svg" alt="" width="52" height="46">
+      <span class="brand__name">Sabor<span class="amp">&amp;</span>Arte</span>
     </a>
     <nav class="nav__links" id="menu" aria-label="Principal">
       <a href="#casa">A Casa</a>
@@ -44,15 +45,15 @@
         <p class="eyebrow reveal"><span class="status" data-status>—</span></p>
         <h1 class="hero__title reveal">
           Feito aqui,<br>
-          <em>desde a madrugada.</em>
+          <em>com arte.</em>
         </h1>
         <p class="hero__lead reveal">
-          Pão quente, pastelaria, pizzaria e gelataria — tudo de <strong>fabrico próprio</strong>,
-          com a receita de sempre e as mãos de quem gosta do que faz.
+          Pão quente, pastelaria e <strong>bolos personalizados</strong> para os seus dias especiais —
+          tudo de fabrico próprio, em Guimarães.
         </p>
         <div class="hero__ctas reveal">
           <a href="#encomendar" class="btn btn--dark">Encomendar um bolo</a>
-          <a href="#vitrine" class="btn btn--ghost">Ver a vitrine <span aria-hidden="true">→</span></a>
+          <a href="#ocasioes" class="btn btn--ghost">Ver os nossos bolos <span aria-hidden="true">→</span></a>
         </div>
         <a class="rating reveal" href="https://www.google.com/maps/place/Sabor%26Arte/@41.4149656,-8.3101641,17z/data=!4m6!3m5!1s0xd24f1df60355f57:0x768523b6ad16cbef!8m2!3d41.4149656!4d-8.3101641!16s%2Fg%2F11tgd_c7ps" target="_blank" rel="noopener">
           <span class="rating__stars" aria-hidden="true">★★★★★</span>
@@ -62,21 +63,19 @@
 
       <div class="hero__art">
         <figure class="arch arch--main reveal">
-          <img src="https://images.unsplash.com/photo-1591107576521-87091dc07797?w=1100&q=80&auto=format&fit=crop"
-               alt="Pastéis de nata acabados de sair do forno" fetchpriority="high">
+          <img src="img/bolo-margaridas.jpg" alt="Bolo de aniversário em tons pêssego decorado com margaridas e o número 1" fetchpriority="high">
         </figure>
         <figure class="arch arch--small reveal">
-          <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=600&q=80&auto=format&fit=crop"
-               alt="Variedade de pães e broas" loading="lazy">
+          <img src="img/bolo-flores.jpg" alt="Bolo cor-de-rosa coroado com flores secas" loading="lazy">
         </figure>
 
         <svg class="seal" viewBox="0 0 200 200" aria-hidden="true">
           <defs><path id="circle" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
           <circle cx="100" cy="100" r="98" class="seal__bg"/>
           <g class="seal__spin">
-            <text><textPath href="#circle" textLength="488">FABRICO PRÓPRIO · PÃO QUENTE · FEITO À MÃO ·</textPath></text>
+            <text><textPath href="#circle" textLength="488">FABRICO PRÓPRIO · PADARIA · PASTELARIA ·</textPath></text>
           </g>
-          <text x="100" y="118" text-anchor="middle" class="seal__mark">S&amp;A</text>
+          <image href="img/logo-mark-light.svg" x="52" y="56" width="96" height="88"/>
         </svg>
       </div>
     </section>
@@ -84,34 +83,32 @@
     <!-- ============ TICKER ============ -->
     <div class="ticker" aria-hidden="true">
       <div class="ticker__track">
-        <span>Pão Quente</span><i>✺</i><span>Pastelaria</span><i>✺</i><span>Pizzaria</span><i>✺</i><span>Gelataria</span><i>✺</i><span>Fabrico Próprio</span><i>✺</i>
-        <span>Pão Quente</span><i>✺</i><span>Pastelaria</span><i>✺</i><span>Pizzaria</span><i>✺</i><span>Gelataria</span><i>✺</i><span>Fabrico Próprio</span><i>✺</i>
+        <span>Pão Quente</span><i>❦</i><span>Pastelaria</span><i>❦</i><span>Bolos Personalizados</span><i>❦</i><span>Pizzaria</span><i>❦</i><span>Gelataria</span><i>❦</i>
+        <span>Pão Quente</span><i>❦</i><span>Pastelaria</span><i>❦</i><span>Bolos Personalizados</span><i>❦</i><span>Pizzaria</span><i>❦</i><span>Gelataria</span><i>❦</i>
       </div>
     </div>
 
     <!-- ============ A CASA ============ -->
     <section class="casa" id="casa">
       <div class="casa__img reveal">
-        <img src="https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?w=1000&q=80&auto=format&fit=crop"
-             alt="Mãos a amassar massa de pão sobre farinha" loading="lazy">
+        <img src="img/loja.jpg" alt="Interior da Sabor&Arte: vitrine de pastelaria, balcão e prateleiras de madeira" loading="lazy">
         <div class="tile" aria-hidden="true"></div>
       </div>
       <div class="casa__copy">
         <p class="eyebrow reveal">A Casa</p>
-        <h2 class="reveal">Não há atalhos<br>para o <em>bom pão.</em></h2>
+        <h2 class="reveal">Não há atalhos<br>para o <em>que é bom.</em></h2>
         <p class="reveal">
-          Na Sabor&amp;Arte o dia começa quando a rua ainda dorme. A massa leva o seu tempo,
-          o forno acorda cedo e cada fornada sai para o balcão como saía antigamente:
-          quente, estaladiça e feita por nós.
+          Na Sabor&amp;Arte o dia começa cedo. A massa leva o seu tempo, o forno acorda
+          antes da rua e cada fornada sai para o balcão como deve ser: quente, estaladiça e feita por nós.
         </p>
         <p class="reveal">
-          Do pão de todos os dias ao bolo da festa, da pizza ao gelado de verão —
-          é tudo de fabrico próprio. É esse o nosso sabor. E é essa a nossa arte.
+          Do pão de todos os dias ao bolo da festa, cada peça é pensada e decorada à mão.
+          É esse o nosso sabor. E é essa a nossa arte.
         </p>
         <ul class="pillars reveal">
-          <li><b>01</b><span>Massa lenta, fornada diária</span></li>
-          <li><b>02</b><span>Ingredientes escolhidos a dedo</span></li>
-          <li><b>03</b><span>Bolos por encomenda</span></li>
+          <li><b>01</b><span>Fabrico próprio, todos os dias</span></li>
+          <li><b>02</b><span>Bolos decorados à mão</span></li>
+          <li><b>03</b><span>Doces tradicionais da época</span></li>
         </ul>
         <blockquote class="quote reveal">
           <p>“Excelente Padaria &amp; Pastelaria com produtos e um serviço de excelência.”</p>
@@ -128,14 +125,29 @@
       </header>
 
       <div class="tabs reveal" role="tablist" aria-label="Categorias">
-        <button role="tab" aria-selected="true"  aria-controls="t-padaria"    id="tab-padaria">Padaria</button>
-        <button role="tab" aria-selected="false" aria-controls="t-pastelaria" id="tab-pastelaria" tabindex="-1">Pastelaria</button>
+        <button role="tab" aria-selected="true"  aria-controls="t-pastelaria" id="tab-pastelaria">Pastelaria</button>
+        <button role="tab" aria-selected="false" aria-controls="t-padaria"    id="tab-padaria" tabindex="-1">Padaria</button>
         <button role="tab" aria-selected="false" aria-controls="t-pizzaria"   id="tab-pizzaria" tabindex="-1">Pizzaria</button>
         <button role="tab" aria-selected="false" aria-controls="t-gelataria"  id="tab-gelataria" tabindex="-1">Gelataria</button>
       </div>
 
       <!-- EDITAR: ajustar os produtos (e acrescentar preços, se quiserem) -->
-      <div class="panel" role="tabpanel" id="t-padaria" aria-labelledby="tab-padaria">
+      <div class="panel" role="tabpanel" id="t-pastelaria" aria-labelledby="tab-pastelaria">
+        <figure class="panel__img"><img src="img/bolo-happy-birthday.jpg" alt="Bolo branco com flores em dourado e a inscrição Happy Birthday" loading="lazy"></figure>
+        <div class="panel__list">
+          <h3>Doces da <em>casa</em></h3>
+          <ul class="menu">
+            <li><span>Bolos personalizados</span><small>Aniversários, batizados e festas — o sabor e a decoração que imaginar.</small></li>
+            <li><span>Pão de Ló</span><small>O tradicional e o húmido, como manda a receita.</small></li>
+            <li><span>Bolinhol</span><small>O clássico da região, com a sua cobertura de açúcar.</small></li>
+            <li><span>Torta de noz &amp; tartes de fruta</span><small>Para a sobremesa de domingo.</small></li>
+            <li><span>Semifrios &amp; cesta de profiteroles</span><small>Frescos, leves, para partilhar.</small></li>
+            <li><span>Massapães, doces brancos e amarelos</span><small>A doçaria conventual que não pode faltar.</small></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="panel" role="tabpanel" id="t-padaria" aria-labelledby="tab-padaria" hidden>
         <figure class="panel__img"><img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=1000&q=80&auto=format&fit=crop" alt="Pães variados" loading="lazy"></figure>
         <div class="panel__list">
           <h3>Pão quente, <em>toda a manhã</em></h3>
@@ -144,21 +156,7 @@
             <li><span>Broa de milho</span><small>Densa, rústica e com aquele cheiro que enche a rua.</small></li>
             <li><span>Pão de forma da casa</span><small>Para a torrada perfeita com manteiga.</small></li>
             <li><span>Pão de mistura &amp; integral</span><small>Massa lenta, côdea a sério.</small></li>
-            <li><span>Tostas, sandes &amp; bifanas</span><small>Para o pequeno-almoço ou o almoço rápido.</small></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="panel" role="tabpanel" id="t-pastelaria" aria-labelledby="tab-pastelaria" hidden>
-        <figure class="panel__img"><img src="https://images.unsplash.com/photo-1668396001678-d33131800ea7?w=1000&q=80&auto=format&fit=crop" alt="Pastéis de nata" loading="lazy"></figure>
-        <div class="panel__list">
-          <h3>Doces do <em>balcão</em></h3>
-          <ul class="menu">
-            <li><span>Pastel de nata</span><small>Massa folhada, creme sedoso, queimado q.b.</small></li>
-            <li><span>Bola de Berlim</span><small>Com ou sem creme — a escolha é sua.</small></li>
-            <li><span>Pão de Deus &amp; arrufadas</span><small>Fofos, com coco tostado.</small></li>
-            <li><span>Croissants</span><small>Simples, misto ou com chocolate.</small></li>
-            <li><span>Bolos de fatia &amp; sobremesas</span><small>Mudam com a semana e com a estação.</small></li>
+            <li><span>Tostas, sandes &amp; salgados</span><small>Para o pequeno-almoço ou o almoço rápido.</small></li>
           </ul>
         </div>
       </div>
@@ -184,9 +182,8 @@
           <ul class="menu">
             <li><span>Clássicos</span><small>Baunilha, chocolate, morango, nata.</small></li>
             <li><span>Frutas da estação</span><small>Leves, frescos, cheios de sabor.</small></li>
-            <li><span>Sabores especiais</span><small>Pastel de nata, bolacha, caramelo salgado…</small></li>
+            <li><span>Sabores especiais</span><small>Pergunte pelos sabores da semana.</small></li>
             <li><span>Copos &amp; cones</span><small>Uma bola, duas bolas, três bolas.</small></li>
-            <li><span>Sobremesas geladas</span><small>Para levar para a mesa de domingo.</small></li>
           </ul>
         </div>
       </div>
@@ -197,29 +194,29 @@
       <header class="section-head section-head--light">
         <p class="eyebrow reveal">Para cada ocasião</p>
         <h2 class="reveal">Há sempre um motivo<br>para um <em>bolo.</em></h2>
-        <p class="reveal section-head__lead">Bolos de aniversário, mesas de doces e cabazes para as datas que importam. Diga-nos o que imagina — nós fazemos.</p>
+        <p class="reveal section-head__lead">Cada bolo é desenhado para a sua festa: o nome, a idade, o tema, as cores. Diga-nos o que imagina — nós fazemos.</p>
       </header>
 
       <div class="cards" data-drag>
         <article class="card reveal" data-ocasiao="Aniversário">
-          <img src="https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=700&q=80&auto=format&fit=crop" alt="Bolo de aniversário com cobertura de chocolate" loading="lazy">
-          <div class="card__body"><span class="card__tag">Todo o ano</span><h3>Aniversários</h3><p>Bolos personalizados, com o sabor e a decoração que escolher.</p><a href="#encomendar" class="card__link">Encomendar →</a></div>
+          <img src="img/bolo-safari.jpg" alt="Bolo de aniversário com tema safari, animais e bandeirola com o nome Joana" loading="lazy">
+          <div class="card__body"><span class="card__tag">Todo o ano</span><h3>Aniversários</h3><p>Temas, nomes e idades — bolos únicos, feitos para a festa de cada um.</p><a href="#encomendar" class="card__link">Encomendar →</a></div>
+        </article>
+        <article class="card reveal" data-ocasiao="Batizado / 1º aninho">
+          <img src="img/bolo-primeiro-aninho.jpg" alt="Bolo branco com coelhinho e número 1 para o primeiro aniversário" loading="lazy">
+          <div class="card__body"><span class="card__tag">Momentos únicos</span><h3>1º Aninho &amp; Batizados</h3><p>Delicados, ternos, com todo o pormenor que o dia merece.</p><a href="#encomendar" class="card__link">Encomendar →</a></div>
         </article>
         <article class="card reveal" data-ocasiao="Dia da Mãe">
-          <img src="https://images.unsplash.com/photo-1618250713296-ee011768e525?w=700&q=80&auto=format&fit=crop" alt="Pastel de nata num prato" loading="lazy">
-          <div class="card__body"><span class="card__tag">Maio</span><h3>Dia da Mãe</h3><p>Doces delicados para dizer obrigado a quem merece tudo.</p><a href="#encomendar" class="card__link">Encomendar →</a></div>
+          <img src="img/bolo-dia-da-mae.jpg" alt="Bolo lilás com laços brancos e a inscrição Mãe 44" loading="lazy">
+          <div class="card__body"><span class="card__tag">Maio</span><h3>Dia da Mãe</h3><p>Para dizer obrigado a quem merece tudo.</p><a href="#encomendar" class="card__link">Encomendar →</a></div>
         </article>
-        <article class="card reveal" data-ocasiao="Dia do Pai">
-          <img src="https://images.unsplash.com/photo-1665251549193-cd5774af59bd?w=700&q=80&auto=format&fit=crop" alt="Mesa com pastelaria portuguesa variada" loading="lazy">
-          <div class="card__body"><span class="card__tag">Março</span><h3>Dia do Pai</h3><p>Um pequeno-almoço especial ou um bolo para a sobremesa.</p><a href="#encomendar" class="card__link">Encomendar →</a></div>
-        </article>
-        <article class="card reveal" data-ocasiao="Dia dos Namorados">
-          <img src="https://images.unsplash.com/photo-1467189386127-c4e5e31ee213?w=700&q=80&auto=format&fit=crop" alt="Café e fatia de bolo" loading="lazy">
-          <div class="card__body"><span class="card__tag">Fevereiro</span><h3>Dia dos Namorados</h3><p>Corações, chocolate e um café a dois.</p><a href="#encomendar" class="card__link">Encomendar →</a></div>
+        <article class="card reveal" data-ocasiao="Páscoa">
+          <img src="img/bolo-margaridas-2.jpg" alt="Bolo creme decorado com margaridas" loading="lazy">
+          <div class="card__body"><span class="card__tag">Primavera</span><h3>Páscoa</h3><p>Pão de Ló, Bolinhol, torta de noz, ovos moles e ovos de chocolate de colher.</p><a href="#encomendar" class="card__link">Encomendar →</a></div>
         </article>
         <article class="card reveal" data-ocasiao="Natal">
           <img src="https://images.unsplash.com/photo-1568254183919-78a4f43a2877?w=700&q=80&auto=format&fit=crop" alt="Vitrine cheia de pastelaria" loading="lazy">
-          <div class="card__body"><span class="card__tag">Dezembro</span><h3>Natal</h3><p>Bolo-rei, bolo-rainha e os doces da consoada. Encomendas até dia 21.</p><a href="#encomendar" class="card__link">Encomendar →</a></div>
+          <div class="card__body"><span class="card__tag">Dezembro</span><h3>Natal</h3><p>Bolo-Rei tradicional, escangalhado e folhado de chocolate, Bolo-Rainha e Tronco de Natal.</p><a href="#encomendar" class="card__link">Encomendar →</a></div>
         </article>
       </div>
     </section>
@@ -244,11 +241,12 @@
           <label for="f-ocasiao">Ocasião</label>
           <select id="f-ocasiao" name="ocasiao">
             <option>Aniversário</option>
+            <option>Batizado / 1º aninho</option>
             <option>Dia da Mãe</option>
             <option>Dia do Pai</option>
             <option>Dia dos Namorados</option>
+            <option>Páscoa</option>
             <option>Natal</option>
-            <option>Batizado / Comunhão</option>
             <option>Outra</option>
           </select>
         </div>
@@ -262,11 +260,11 @@
         </div>
         <div class="field">
           <label for="f-detalhes">Detalhes</label>
-          <textarea id="f-detalhes" name="detalhes" rows="4" placeholder="Sabor, decoração, texto no bolo, alergias…"></textarea>
+          <textarea id="f-detalhes" name="detalhes" rows="4" placeholder="Sabor, tema, cores, nome e idade, alergias…"></textarea>
         </div>
         <p class="form__error" role="alert" hidden></p>
         <button type="submit" class="btn btn--dark btn--wide">
-          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.8 2.3.9 2.5c.1.2 1.6 2.5 4 3.5 1.5.6 2 .7 2.8.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.4z"/></svg>
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.900-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.700-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.8 2.3.9 2.5c.1.2 1.6 2.5 4 3.5 1.5.6 2 .7 2.8.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.4z"/></svg>
           Enviar pedido por WhatsApp
         </button>
         <p class="form__note">Encomendas com pelo menos 48h de antecedência.</p>
@@ -280,12 +278,12 @@
         <a class="btn btn--ghost reveal" href="https://www.instagram.com/saborearte_padaria_pastelaria/" target="_blank" rel="noopener">@saborearte_padaria_pastelaria ↗</a>
       </header>
       <div class="insta__grid">
-        <a href="https://www.instagram.com/saborearte_padaria_pastelaria/" target="_blank" rel="noopener" class="reveal"><img src="https://images.unsplash.com/photo-1623334044303-241021148842?w=500&q=75&auto=format&fit=crop" alt="Croissants dourados" loading="lazy"></a>
-        <a href="https://www.instagram.com/saborearte_padaria_pastelaria/" target="_blank" rel="noopener" class="reveal"><img src="https://images.unsplash.com/photo-1591107576521-87091dc07797?w=500&q=75&auto=format&fit=crop" alt="Pastéis de nata" loading="lazy"></a>
-        <a href="https://www.instagram.com/saborearte_padaria_pastelaria/" target="_blank" rel="noopener" class="reveal"><img src="https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=500&q=75&auto=format&fit=crop" alt="Bolo de aniversário" loading="lazy"></a>
-        <a href="https://www.instagram.com/saborearte_padaria_pastelaria/" target="_blank" rel="noopener" class="reveal"><img src="https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=500&q=75&auto=format&fit=crop" alt="Gelados" loading="lazy"></a>
-        <a href="https://www.instagram.com/saborearte_padaria_pastelaria/" target="_blank" rel="noopener" class="reveal"><img src="https://images.unsplash.com/photo-1612692177120-847e15b2815d?w=500&q=75&auto=format&fit=crop" alt="Pizza no forno" loading="lazy"></a>
-        <a href="https://www.instagram.com/saborearte_padaria_pastelaria/" target="_blank" rel="noopener" class="reveal"><img src="https://images.unsplash.com/photo-1568254183919-78a4f43a2877?w=500&q=75&auto=format&fit=crop" alt="Vitrine de pastelaria" loading="lazy"></a>
+        <a href="https://www.instagram.com/p/DabGLgEAN1A/" target="_blank" rel="noopener" class="reveal"><img src="img/bolo-margaridas.jpg" alt="Bolo pêssego com margaridas" loading="lazy"></a>
+        <a href="https://www.instagram.com/p/DRHQj9tDGnH/" target="_blank" rel="noopener" class="reveal"><img src="img/bolo-flores.jpg" alt="Bolo rosa com flores secas" loading="lazy"></a>
+        <a href="https://www.instagram.com/p/DQ1FyX2jA4S/" target="_blank" rel="noopener" class="reveal"><img src="img/bolo-happy-birthday.jpg" alt="Bolo Happy Birthday com flores douradas" loading="lazy"></a>
+        <a href="https://www.instagram.com/p/DVm-6FBjDgc/" target="_blank" rel="noopener" class="reveal"><img src="img/bolo-safari.jpg" alt="Bolo safari" loading="lazy"></a>
+        <a href="https://www.instagram.com/p/DZkqFWEAJYK/" target="_blank" rel="noopener" class="reveal"><img src="img/bolo-primeiro-aninho.jpg" alt="Bolo de primeiro aniversário com coelhinho" loading="lazy"></a>
+        <a href="https://www.instagram.com/p/DQ2TVJnAIPg/" target="_blank" rel="noopener" class="reveal"><img src="img/bolo-margaridas-2.jpg" alt="Bolo creme com margaridas" loading="lazy"></a>
       </div>
     </section>
 
@@ -313,13 +311,13 @@
 
   <!-- ============ FOOTER ============ -->
   <footer class="footer">
-    <p class="footer__brand">Sabor<span class="amp">&amp;</span>Arte</p>
+    <img class="footer__logo" src="img/logo-light.svg" alt="Sabor&Arte — Padaria e Pastelaria" width="260" height="312">
     <p class="footer__tag">Pão Quente · Pastelaria · Pizzaria · Gelataria</p>
     <nav class="footer__social" aria-label="Redes sociais">
       <a href="https://www.instagram.com/saborearte_padaria_pastelaria/" target="_blank" rel="noopener">Instagram</a>
       <a href="https://www.facebook.com/" target="_blank" rel="noopener" data-facebook>Facebook</a>
     </nav>
-    <p class="footer__small">© <span data-year></span> Sabor&amp;Arte · Fabrico próprio</p>
+    <p class="footer__small">© <span data-year></span> Sabor&amp;Arte · Guimarães · Fabrico próprio</p>
   </footer>
 
   <!-- Botão flutuante de encomenda (mobile) -->
