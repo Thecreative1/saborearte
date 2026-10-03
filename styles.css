@@ -52,6 +52,9 @@ p { margin: 0 0 1em; }
 .skip { position: absolute; left: -999px; top: 8px; background: var(--crust); color: var(--paper); padding: 8px 14px; border-radius: 8px; z-index: 200; }
 .skip:focus { left: 8px; }
 :focus-visible { outline: 2px solid var(--azul-2); outline-offset: 3px; border-radius: 6px; }
+/* em fundos escuros o contorno de foco usa rosa-velho (contraste ≥ 3:1) */
+.ocasioes :focus-visible, .footer :focus-visible { outline-color: var(--rose); }
+::placeholder { color: #666E6C; opacity: 1; }
 
 .eyebrow {
   font: 600 .78rem/1 var(--body); letter-spacing: .18em; text-transform: uppercase;
@@ -281,7 +284,7 @@ p { margin: 0 0 1em; }
 .footer__tag { letter-spacing: .18em; text-transform: uppercase; font-size: .78rem; font-weight: 600; opacity: .75; }
 .footer__social { display: flex; justify-content: center; gap: 28px; margin: 2rem 0 3rem; }
 .footer__social a { text-decoration: none; font-weight: 600; border-bottom: 1px solid var(--caramel); padding-bottom: 3px; }
-.footer__small { font-size: .82rem; opacity: .55; margin: 0; }
+.footer__small { font-size: .82rem; opacity: .7; margin: 0; }
 
 /* ---------- FAB (mobile) ---------- */
 .fab { display: none; }
